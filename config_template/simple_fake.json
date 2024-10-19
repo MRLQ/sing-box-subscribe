@@ -140,13 +140,6 @@
     }
   ],
   "outbounds": [
-		 {
-      "tag": "手动选择",
-      "type": "selector",
-      "outbounds": [
-        "{all}"
-      ]
-    },
     {
       "tag": "proxy",
       "type": "selector",
@@ -157,7 +150,15 @@
 	"JP",
 	"SG",
 	"US",
+        "Others",
         "direct"
+      ]
+    },
+    {
+      "tag": "手动选择",
+      "type": "selector",
+      "outbounds": [
+        "{all}"
       ]
     },
     {
